@@ -14,3 +14,4 @@
 ## Level 3 - Vylepšení servlet + jsp + jstl
 * vytvořeno jsp
 * pres servlet zajisten spravny pocet vypsani hello
+* záporné x už nevyhazuje výjimku
