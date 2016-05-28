@@ -11,3 +11,6 @@
 * vytvořen servlet IBA-level2
 * deploy přes standalone Tomcat
  
+## Level 3 - Vylepšení servlet + jsp + jstl
+* vytvořeno jsp
+* pres servlet zajisten spravny pocet vypsani hello
