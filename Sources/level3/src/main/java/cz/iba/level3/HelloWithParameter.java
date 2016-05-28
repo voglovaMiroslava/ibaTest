@@ -28,12 +28,15 @@ public class HelloWithParameter extends HttpServlet {
         String param = request.getParameter("x");
         Integer i = 1;
         HttpSession session = request.getSession();
-        
+
         try {
             i = Integer.parseInt(param);
-        } catch (NumberFormatException ex) {         
+            if (i < 1) {
+                i = 1;
+            }
+        } catch (NumberFormatException ex) {
         }
-        
+
         session.setAttribute("repet", i.toString());
         request.getRequestDispatcher("/WEB-INF/multipleHello.jsp").forward(request, response);
     }
