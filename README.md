@@ -4,7 +4,6 @@
 * vytvořen GitHub repozitář
 * vytvořen soubor README.md
 
-
 ## Level 2 - Servlet
 * vytvořen Maven projekt
 * stažen Tomcat
@@ -15,3 +14,7 @@
 * vytvořeno jsp
 * pres servlet zajisten spravny pocet vypsani hello
 * záporné x už nevyhazuje výjimku
+
+## Level 4 - Spring MVC
+* refaktorování projektu
+* funkcionalita zachována
