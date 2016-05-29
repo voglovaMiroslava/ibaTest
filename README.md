@@ -18,3 +18,8 @@
 ## Level 4 - Spring MVC
 * refaktorování projektu
 * funkcionalita zachována
+
+## Level 5 - Vstupní formulář
+* formulář pomocí spring form
+* vytvořen vlastní PropertyEditor pro enum Gender
+* přijímá jen formát data dd.MM.yyyy
